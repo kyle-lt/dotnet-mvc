@@ -1,0 +1,21 @@
+{
+  "controller": {
+    "host": "kjt.hopto.org",
+    "port": 8090,
+    "account": "customer1",
+    "password": "78df80d5-f501-4f94-bafd-d04c78b057be",
+    "ssl": false
+  },
+  "application": {
+    "name": "dotnet-mvc-pcf",
+    "tier": "dotnet-mvc-pcf",
+    "node": "dotnet-mvc-pcf-env-var-override-in-manifest"
+  },
+  "feature": [
+    "FULL_AGENT",  "PREVIEW_FEATURE"
+  ],
+  "log": {
+    "directory": "/tmp/appd/dotnet",
+    "level": "DEBUG"
+  }
+}

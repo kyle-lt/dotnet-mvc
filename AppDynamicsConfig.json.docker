@@ -1,0 +1,21 @@
+{
+  "controller": {
+    "host": "192.168.86.40",
+    "port": 8090,
+    "account": "customer1",
+    "password": "78df80d5-f501-4f94-bafd-d04c78b057be",
+    "ssl": false
+  },
+  "application": {
+    "name": "dotnet-mvc-Docker",
+    "tier": "dotnet-mvc-Docker",
+    "node": "dotnet-mvc-Docker-env-var-override"
+  },
+  "feature": [
+    "FULL_AGENT",  "PREVIEW_FEATURE"
+  ],
+  "log": {
+    "directory": "/tmp/appd/dotnet",
+    "level": "DEBUG"
+  }
+}

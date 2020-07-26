@@ -1,0 +1,22 @@
+---
+applications:
+  - name: dotnet-mvc
+    random-route: true
+    #services:
+    #  - appdynamics
+    memory: 256M
+    disk_quota: 256M
+    env:
+      CACHE_NUGET_PACKAGES: false
+      CORECLR_ENABLE_PROFILING: "1"
+      CORECLR_PROFILER: '{57e1aa68-2229-41aa-9931-a6e93bbc64d8}'
+      CORECLR_PROFILER_PATH: "/home/vcap/app/libappdprofiler.so"
+      APPDYNAMICS_AGENT_ACCOUNT_NAME: "customer1"
+      APPDYNAMICS_AGENT_APPLICATION_NAME:  "pcf-pws-dotnet-mvc"
+      APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY: "78df80d5-f501-4f94-bafd-d04c78b057be"
+      APPDYNAMICS_AGENT_REUSE_NODE_NAME: true
+      APPDYNAMICS_AGENT_REUSE_NODE_NAME_PREFIX: "pcf"
+      APPDYNAMICS_AGENT_TIER_NAME: "web"
+      APPDYNAMICS_CONTROLLER_HOST_NAME: "kjt.hopto.org"
+      APPDYNAMICS_CONTROLLER_PORT: 8090
+      APPDYNAMICS_CONTROLLER_SSL_ENABLED: false
