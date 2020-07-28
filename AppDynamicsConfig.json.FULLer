@@ -1,0 +1,16 @@
+{
+  "controller": {
+    "host": "",
+    "port": ,
+    "account": "",
+    "password": ""
+  ,
+  "application": {
+    "name": "",
+    "tier": "",
+    "node": ""
+  },
+  "feature": [
+    "FULL_AGENT",  "PREVIEW_FEATURE"
+  ]
+}

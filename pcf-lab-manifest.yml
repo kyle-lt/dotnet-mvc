@@ -6,7 +6,7 @@ applications:
       - dotnet_core_buildpack
     #random-route: true
     memory: 256M
-    disk_quota: 256M
+    disk_quota: 512M
     services:
       - appd
     env:
